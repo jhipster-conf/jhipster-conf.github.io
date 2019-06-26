@@ -408,3 +408,11 @@ tr {
 tr.even {
 	background-color: #d3d3d3;
 }
+
+/* mobile enhancements */
+img, iframe { max-width: 100% }
+.address { color: white }
+
+@media only screen and (min-device-width : 375px)  { 
+    .ptb {margin-left: 0; margin-right: 0}
+}
