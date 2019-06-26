@@ -240,6 +240,9 @@ input {
 }
 
 #h .logo {
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-bottom: 150px;
 }
 
 #h .logo h2{
@@ -411,5 +414,20 @@ img, iframe { max-width: 100% }
 .address { color: white }
 
 @media only screen and (min-device-width : 375px)  { 
+    
+}
+
+/* iPhone 6, 7, & 8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .ptb {margin-left: 0; margin-right: 0}
+}
+
+/* iPhone X */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
     .ptb {margin-left: 0; margin-right: 0}
 }
