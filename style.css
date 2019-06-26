@@ -240,6 +240,9 @@ input {
 }
 
 #h .logo {
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-bottom: 150px;
 }
 
 #h .logo h2{
